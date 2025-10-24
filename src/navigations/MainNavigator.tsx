@@ -10,6 +10,7 @@ import Home from '../screens/Home';
 import Login from '../screens/Login';
 import { AuthUser } from '../services/authService';
 import { useAuth } from '../context/AuthContext';
+import Dashboard from '../screens/Dashboard';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -19,7 +20,10 @@ const MainNavigator = () => {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       {user ? (
-        <Stack.Screen name="Home" component={Home} />
+        <>
+          <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="Dashboard" component={Dashboard} />
+        </>
       ) : (
         <Stack.Screen name="Login" component={Login} />
       )}
