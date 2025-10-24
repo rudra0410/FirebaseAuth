@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "364910053724",
+    "firebase_url": "https://healthcare-ai-9cf90-default-rtdb.firebaseio.com",
+    "project_id": "healthcare-ai-9cf90",
+    "storage_bucket": "healthcare-ai-9cf90.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364910053724:android:601a5c8a3aefbe7b53d999",
+        "android_client_info": {
+          "package_name": "com.firebaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiMUZ_CNE_IZ1ckVDiHQ0OCWGcnipJ1iA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
