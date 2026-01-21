@@ -28,7 +28,7 @@ const MainNavigator = () => {
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="Dashboard" component={Dashboard} />
 <<<<<<< HEAD
-          <Stack.Screen name="Calculator" component={Calculator} />
+          {/* <Stack.Screen name="Calculator" component={Calculator} /> */}
 =======
 >>>>>>> dfae1673e8c1e132b787c3c2387a586e00feac69
         </>
